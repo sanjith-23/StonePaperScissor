@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stone Paper Scissor</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+    <div class="part1">
+    </div>
+    <div class="part2"><a href="index.html">Play Again</a>
+    </div>
+</div>
+    <div class="container">
+        <div class="title">
+            <h1>Stone Paper Scissor</h1>
+        </div>
+        <div class="score">
+            <ul>
+                <li><label id="plyscr">Your Score : 0</label></li>
+                <li><label id="cmpscr">Computer Score : 0</label></li>
+            </ul>
+            <p class="status"></p>
+            <ul class="series">
+                <li class="serieswin">Winning Status(best 3)</li>
+                <li class="seriesyou">You : 0</li>
+                <li class="seriescom">Computer : 0</li>
+            </ul>
+        </div>
+            <div class="sub_container"> 
+                <div class="player">
+                    <ul>
+                    <li class="plrl">Player</li>
+                    <li id="plydis"></li>
+                </ul>
+                </div>
+                <div class="computer">
+                    <ul>
+                    <li class="cmpl">Computer</li>
+                    <li id="cmpdis"></li>
+                </ul>
+                </div>
+                <div class="result">
+                    <ul>
+                    <li class="resl">Result</li>
+                    <li id="resdis"></li>
+                </ul>
+                </div>
+            </div>
+            <div class="click">
+                <div class="stone">
+                    <button class="submit">
+                        <label>stone</label>
+                        <img src="stone1.png" width="100px"height="100px"></button>
+                </div>
+                <div class="paper">
+                    <button class="submit">
+                        <label>paper</label>
+                        <img src="papper1.png" width="100px"height="100px"></button>
+                </div>
+                <div class="scissor">
+                    <button class="submit">
+                        <label>scissor</label>
+                        <img src="sissor1.png" width="100px" height="100px" ></button>
+                </div>
+            </div>
+            <div class="playagain" onclick="alert1()">
+                <label><a href="index.html"><i class="fa-solid fa-arrow-rotate-right"></i></a></label>
+            </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
